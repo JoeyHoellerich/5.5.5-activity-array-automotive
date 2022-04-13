@@ -1,7 +1,6 @@
 //this includes the vehicle class as a module
 const VehicleModule = require("./vehicle")
 
-
 // Car is an extension of Vehicle
 class Car extends VehicleModule.Vehicle {
     // adds: maximumPassengers, passengers, numWheels, maxSpeed, fuel, and scheduleService
